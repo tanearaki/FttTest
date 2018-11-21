@@ -1,0 +1,4 @@
+baseURL = "/"
+languageCode = "ja"
+title = "FTT test"
+theme = "hugo-grapes" 

@@ -1,0 +1,48 @@
+
+<footer>
+  <div id="footer" role="contentinfo">
+    <div class="ft_logo"><img src="/media/images/common/ft_logo.png" width="220" height="36" alt=""></div>
+    <div class="ft_copy"><p><span>Copyright(C)</span><span>Fintertech Securities Co.,Ltd.</span><span>All Rights Reserved.</span></p></div>
+  </div><!-- footer -->
+</footer>
+<div id="sp_menu" role="navigation">
+  <ul>
+    <li><a href="#mission" title="ミッション" class="sp_menu_trigger">ミッション</a></li>
+    <li><a href="#policy" title="ポリシー" class="sp_menu_trigger">ポリシー</a></li>
+    <li><a href="#news" title="ニュースリリース" class="sp_menu_trigger">ニュースリリース</a></li>
+    <li><a href="#career" title="採用情報" class="sp_menu_trigger">採用情報</a></li>
+    <li><a href="#company" title="会社概要" class="sp_menu_trigger">会社概要</a></li>
+  </ul>
+</div><!-- gnavi -->
+<script src="/js/jquery.js"></script>
+<script src="/js/easing.js"></script>
+<script src="/js/common.js"></script>
+<script>
+  $(function(){
+    setTimeout(function(){
+      $(".head_parts").addClass('on');
+    },500);
+    setTimeout(function(){
+      $(".main_catchg").addClass('on');
+    },1000);
+    setTimeout(function(){
+      $(".main_bg").addClass('on');
+      $(".bottom_parts").addClass('on');
+    },1500);
+    $(window).on('load scroll',function(){
+      $('.mv').each(function(){
+        var elemPos = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > elemPos - windowHeight + 200){
+          $(this).addClass('scrollin');
+          //$(this).find('.delay_item').each(function(i){
+          //$(this).delay(300 * i).animate({opacity:1,top:0}, 500,'easeOutQuad');
+          //});
+        }
+      });
+    });
+  });
+</script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
