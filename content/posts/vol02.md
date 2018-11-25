@@ -7,6 +7,9 @@ categories:
   - NEWS
 tags:
   - news
+class:
+  - new
 ---
 ![undefined](/images/uploads/home_kv_bg.jpg)
+
 
