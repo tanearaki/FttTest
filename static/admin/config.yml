@@ -2,11 +2,16 @@ backend:
 name: github
 repo: tanearaki/FttTest
 
+branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "/images/uploads"
+public_folder: "/images/uploads"
 collections:
 - name: "post"
 label: "Post"
 folder: "content/posts"
-create: true
 slug: "{{slug}}"
 fields:
 - {label: "Title", name: "title", widget: "string"}
