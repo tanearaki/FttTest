@@ -1,6 +1,6 @@
 backend:
 name: github
-repo: mismith0227/hugo-netlify-sample
+repo: tanearaki/FttTest
 branch: master
 
 publish_mode: editorial_workflow
