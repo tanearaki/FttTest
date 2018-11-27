@@ -1,4 +1,4 @@
 baseURL = "/"
 languageCode = "ja"
-title = "FTT test"
+title = "TEST-site"
 theme = "hugo-grapes" 
