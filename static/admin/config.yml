@@ -20,8 +20,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Category", name: "categories", widget: "select", options:
         - { label: "NEW", value: "new" }
-        - { label: "INFO", value: "info" }}
-        - { label: "PRESS", value: "press" }
+        - { label: "INFO", value: "info" }
+        - { label: "PRESS", value: "press"}
         }
       - {label: "Class", name: "class", widget: "select", options: ["news", "press", "info"], required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
