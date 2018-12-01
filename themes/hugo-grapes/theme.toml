@@ -8,8 +8,8 @@ features = ["blog"]
 min_version = "0.41"
 
 [author]
-  name = "Shankar"
-  homepage = "https://shankar.me/"
+  name = "tane CREATIVE"
+  homepage = "https://tane-creative.co.jp/"
 
 [original]
   name = "Bing-Sheng Chen"
@@ -21,4 +21,4 @@ tag = "tags"
 category = "categories"
 series = "series"
 class = "class"
- 
+

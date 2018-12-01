@@ -906,3 +906,16 @@ body.lower #header {
   letter-spacing: 0.15em;
   text-indent: 0.15em;
 }
+.btn_cont .btn.dammy_mail {
+  background-image: url(/media/images/common/mailaddress_recruit.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  cursor: default;
+}
+@media only screen and (min-width: 641px) {
+  .btn_cont .btn.dammy_mail:hover {
+    background-color: #ff9a32;
+    transition: 800ms;
+  }
+}
