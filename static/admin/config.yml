@@ -22,7 +22,7 @@ collections:
       - {label: "Category", name: "categories", widget: "select", options:
     - { label: "NEW", value: "new" }
     - { label: "PRESS", value: "press" }
-    - { label: "INFO", value: "info" }required: false}
+    - { label: "INFO", value: "info" }, required: false}
       - {label: "Class", name: "class", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
