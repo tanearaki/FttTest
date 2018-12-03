@@ -18,10 +18,10 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Descreption", name: "description", widget: "text", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Thumbnail Image", name: "thumbnail", widget: "image", required: false}
+      #- {label: "Thumbnail Image", name: "thumbnail", widget: "image", required: false}
       #- {label: "Category", name: "categories", widget: "list", options: ["NEWS" ,"PRESS", "INFO"], required: false}
       #- {label: "Class", name: "class", widget: "list", required: false}
       - {label: "Category", name: "postcategories", widget: "select", options: ["NEW" ,"PRESS", "INFO"], default: "NEWS"} 
       - {label: "Class", name: "postclass", widget: "select", options: ["new", "press", "info"], default: "news"}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
+      #- {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
