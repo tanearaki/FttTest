@@ -19,6 +19,6 @@ min_version = "0.41"
 [taxonomies]
 tag = "tags"
 category = "categories"
-series = "series"
-class = "class"
+#series = "series"
+#class = "class"
 
