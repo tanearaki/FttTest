@@ -18,9 +18,10 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Descreption", name: "description", widget: "text", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "categories", widget: "select", options: ["NEWS", "PRESS", "INFO"], required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {
-          name: "categories",
+          name: "category",
           label: "Category",
           widget: "select",
           options: [
