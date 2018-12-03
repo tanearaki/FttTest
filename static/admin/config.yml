@@ -23,7 +23,6 @@ collections:
           name: "categories",
           label: "Category",
           widget: "select",
-          default: "NEWS",
           options: [
               { label: "NEWS", value: "news" },
               { label: "PRESS", value: "press" },
