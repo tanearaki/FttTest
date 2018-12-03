@@ -19,7 +19,7 @@ collections:
       - {label: "Descreption", name: "description", widget: "text", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Thumbnail Image", name: "thumbnail", widget: "image", required: false}
-      - {label: "Category", name: "categories", widget: "select", options: ["NEWS", "PRESS", "INFO"], required: false, default: ""} 
-      - {label: "Class", name: "class", widget: "select", options: ["news", "press", "info"], required: false, default: ""}
+      - {label: "Category", name: "categories", widget: "select", options: ["NEWS", "PRESS", "INFO"], default: "NEWS"} 
+      - {label: "Class", name: "class", widget: "select", options: ["news", "press", "info"], default: "news"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
