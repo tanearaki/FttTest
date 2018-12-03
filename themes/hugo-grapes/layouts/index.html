@@ -166,4 +166,33 @@
       });
     });
   </script>
+  {{- partial "inc-footer.html" . -}}
+  <script>
+    $(function(){
+      setTimeout(function(){
+        $(".head_parts").addClass('on');
+      },500);
+      setTimeout(function(){
+        $(".main_catchg").addClass('on');
+      },1000);
+      setTimeout(function(){
+        $(".main_bg").addClass('on');
+        $(".bottom_parts").addClass('on');
+      },1500);
+      $(window).on('load scroll',function(){
+        $('.mv').each(function(){
+          var elemPos = $(this).offset().top;
+          var scroll = $(window).scrollTop();
+          var windowHeight = $(window).height();
+          if (scroll > elemPos - windowHeight + 200){
+            $(this).addClass('scrollin');
+            //$(this).find('.delay_item').each(function(i){
+            //$(this).delay(300 * i).animate({opacity:1,top:0}, 500,'easeOutQuad');
+            //});
+          }
+        });
+      });
+    });
+  </script>
+  <script>hljs.initHighlightingOnLoad();</script>
 {{ end }}

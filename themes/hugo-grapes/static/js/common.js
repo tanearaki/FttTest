@@ -5,6 +5,16 @@ $(window).on('load scroll',function(){
     $('#header').removeClass('fixheader');
   }
 });
+$(window).on('load resize', function(){
+  //画面の高さを取得して、変数wHに代入
+  var wH = $(window).height(); 
+  var footerH = $('#footer').height(); 
+  var bodyH = $('body').innerHeight();
+  if(wH > bodyH){
+    fixH = wH - footerH;
+    $('#wrapper').css('min-height',fixH+'px'); 
+  }
+});
 $(function(){
   $(function(){
     function pagelink(heightnum){
