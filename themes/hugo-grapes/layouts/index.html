@@ -97,7 +97,7 @@
               <ul>
                 {{ range first 5 .Data.Pages.ByPublishDate.Reverse }}
                 <li>
-                  <a href="{{ .URL }}"><div class="date">{{ .Render "time-element" }}</div><div class="cat"><div class="{{ range .Params.postclass }}{{ . }}{{ end }}"><span>{{ range .Params.postcategories }}{{ . }}{{ end }}</span></div></div><div class="text">{{ .Title }}</div></a>
+                  <a href="{{ .URL }}"><div class="date">{{ .Render "time-element" }}</div><div class="cat"><div class="{{ range .postclass }}{{ . }}{{ end }}"><span>{{ range .postcategories }}{{ . }}{{ end }}</span></div></div><div class="text">{{ .Title }}</div></a>
                 </li>
                 {{ end }}
               </ul>
