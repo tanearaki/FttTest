@@ -12,7 +12,7 @@
               <ul>
                 {{ range .Data.Pages }}
                 <li>
-                  <a href="{{ .URL }}"><div class="date">{{ .Render "time-element" }}</div><div class="cat"><div class="{{ range .class }}{{ . }}{{ end }}"><span>{{ range .Params.categories }}{{ . }}{{ end }}</span></div></div><div class="text">{{ .Title }}</div></a>
+                  <a href="{{ .URL }}"><div class="date">{{ .Render "time-element" }}</div><div class="cat"><div class="{{ range .Params.class }}{{ . }}{{ end }}"><span>{{ range .Params.categories }}{{ . }}{{ end }}</span></div></div><div class="text">{{ .Title }}</div></a>
                 </li>
                 {{ end }}
               </ul>
