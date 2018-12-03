@@ -22,6 +22,7 @@ collections:
       - {label: "Category", name: "categories", widget: "list", required: false}
       - {label: "Class", name: "class", widget: "list", required: false}
       - {label: "Category", name: "postcategories", widget: "select", options: ["NEWS", "PRESS", "INFO"], default: "NEWS"} 
+      - {label: "Category", name: "postcategories", widget: "select", options: [{label: "NEWS", value: "news" } ,"PRESS", "INFO"], default: "NEWS"} 
       - {label: "Class", name: "postclass", widget: "select", options: ["news", "press", "info"], default: "news"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
