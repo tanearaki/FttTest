@@ -16,9 +16,9 @@ min_version = "0.41"
   homepage = "https://bschen.tw/"
   repo = "https://github.com/gundamew/hugo-bingo"
   
-#[taxonomies]
-#tag = "tags"
-#category = "categories"
-#series = "series"
-#class = "class"
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+class = "class"
 
