@@ -24,4 +24,5 @@ collections:
       - {label: "Category", name: "postcategories", widget: "select", options: ["NEW" ,"PRESS", "INFO"], default: "NEWS"} 
       - {label: "Class", name: "postclass", widget: "select", options: ["new", "press", "info"], default: "news"}
       #- {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Body", name: "body", widget: "markdown", options: ["file"], default: "news"}
+      - {label: "File", name: "file_upload", widget: "file"}
+      - {label: "Body", name: "body", widget: "markdown", default: "news"}
