@@ -25,4 +25,4 @@ collections:
       - {label: "Class", name: "postclass", widget: "select", options: ["new", "press", "info"], default: "news"}
       #- {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "File", name: "file_upload", widget: "file"}
-      - {label: "Body", name: "body", widget: "markdown", default: "news"}
+      - {label: "Body", name: "body", widget: "markdown"}
