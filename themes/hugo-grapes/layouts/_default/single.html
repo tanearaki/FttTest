@@ -12,6 +12,9 @@
             <div class="entry_date">{{ .Render "time-element" }}</div>
             <div class="entry_content">
               {{ .Content }}
+                {{ with .Params.file_upload }}
+    <img src="{{ . }}" alt="thumbnail" class="p-article__thumbnail">
+  {{ end }}
             </div>
           </div>
         </div>
