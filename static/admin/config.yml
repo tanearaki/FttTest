@@ -25,13 +25,8 @@ collections:
         name: "files"
         widget: "list"
         fields:
-          - {label: Files, name: files, widget: file}
-          - label: Author
-            name: author
-            widget: object
-            fields:
-            - {label: Name, name: name, widget: string, default: "file.pdf"}
-            - {label: Avatar, name: avatar, widget: file, default: "/img/emmet.jpg"}
+          - {label: File, name: file_upload, widget: file}
+          - {label: File Name, name: file_name, widget: string, default: "file.pdf"}
       - {label: "Category", name: "postcategories", widget: "select", options: ["NEWS" ,"PRESS", "INFO"], default: "NEW"} 
       - {label: "Class", name: "postclass", widget: "select", options: ["news", "press", "info"], default: "new"}
       #- {label: "Tags", name: "tags", widget: "list", required: false}
