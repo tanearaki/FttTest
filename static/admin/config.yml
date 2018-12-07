@@ -21,8 +21,8 @@ collections:
       #- {label: "Thumbnail Image", name: "thumbnail", widget: "image", required: false}
       #- {label: "Category", name: "categories", widget: "list", options: ["NEWS" ,"PRESS", "INFO"], required: false}
       #- {label: "Class", name: "class", widget: "list", required: false}
-      - {label: "Category", name: "postcategories", widget: "select", options: ["NEW" ,"PRESS", "INFO"], default: "NEW"} 
-      - {label: "Class", name: "postclass", widget: "select", options: ["new", "press", "info"], default: "new"}
+      - {label: "Category", name: "postcategories", widget: "select", options: ["NEWS" ,"PRESS", "INFO"], default: "NEW"} 
+      - {label: "Class", name: "postclass", widget: "select", options: ["news", "press", "info"], default: "new"}
       #- {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "File", name: "file_upload", widget: "file"}
       - {label: "Body", name: "body", widget: "markdown", options: ["bold", "italic", "code", "link", "heading-one", "heading-two", "quote", "code-block", "bulleted-list"]}
