@@ -11,7 +11,7 @@
             <div class="main_title"><h1>{{ .Title }}</h1></div>
             <div class="entry_date">{{ .Render "time-element" }}</div>
             {{ with .Content }}<div class="entry_content">
-              {{ .Content }}
+             {{ . }}
             </div>{{ end }}
 			{{ if isset .Params "files" }}
             <div class="entry_content files_list">
