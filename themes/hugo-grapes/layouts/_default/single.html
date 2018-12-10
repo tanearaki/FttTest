@@ -16,7 +16,7 @@
 			{{ if isset .Params "files" }}
             <div class="entry_content files_list">
 				<ul>
-					{{ range .Params.files }}<li><a href="{{ .file_upload }}">{{ with .file_name }}{{ . }}{{ else }}{{ .file_upload }}{{ end }}</a></li>
+					{{ range .Params.files }}<li><a href="{{ .file_upload }}" target="_brank">{{ with .file_name }}{{ . }}{{ else }}{{ .file_upload }}{{ end }}</a></li>
 				{{ end }}
 				</ul>
             </div>
