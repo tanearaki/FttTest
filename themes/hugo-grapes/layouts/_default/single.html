@@ -10,7 +10,7 @@
             <div class="min_title"><p><img src="/media/images/home/title_news.png" width="244" height="40" alt="ニュースリリース"></p></div>
             <div class="main_title"><h1>{{ .Title }}</h1></div>
             <div class="entry_date">{{ .Render "time-element" }}</div>
-            {{ if isset .Params "Content" }}<div class="entry_content">
+            {{ with .Content }}<div class="entry_content">
               {{ .Content }}
             </div>{{ end }}
 			{{ if isset .Params "files" }}
