@@ -27,8 +27,7 @@ collections:
         fields:
           - {label: File, name: file_upload, widget: file}
           - {label: File Name, name: file_name, widget: string, default: "file.pdf"}
-      - {label: "Category", name: "postcategories", widget: "select", options: ["NEWS" ,"PRESS", "INFO"], default: "NEW"} 
+          - {label: Editor, name: "editor", widget: "markdown", options: ["bold", "italic", "code", "link", "heading-one", "heading-two", "quote", "code-block", "bulleted-list"]}
+      - {label: "Category", name: "postcategories", widget: "select", options: ["NEWS" ,"PRESS", "INFO"], default: "NEWS"} 
       - {label: "Class", name: "postclass", widget: "select", options: ["news", "press", "info"], default: "new"}
-      #- {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "File", name: "file_upload", widget: "file"}
       - {label: "Body", name: "body", widget: "markdown", options: ["bold", "italic", "code", "link", "heading-one", "heading-two", "quote", "code-block", "bulleted-list"]}

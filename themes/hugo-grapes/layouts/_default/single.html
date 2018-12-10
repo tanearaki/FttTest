@@ -10,12 +10,17 @@
             <div class="min_title"><p><img src="/media/images/home/title_news.png" width="244" height="40" alt="ニュースリリース"></p></div>
             <div class="main_title"><h1>{{ .Title }}</h1></div>
             <div class="entry_date">{{ .Render "time-element" }}</div>
-            <div class="entry_content">
+            {{ if isset .Params "Content" }}<div class="entry_content">
               {{ .Content }}
-                {{ with .Params.file_upload }}
-              <a href="{{ . }}" >{{ . }}</a>
-  {{ end }}
+            </div>{{ end }}
+			{{ if isset .Params "files" }}
+            <div class="entry_content files_list">
+				<ul>
+					{{ range .Params.files }}<li><a href="{{ .file_upload }}">{{ with .file_name }}{{ . }}{{ else }}{{ .file_upload }}{{ end }}</a></li>
+				{{ end }}
+				</ul>
             </div>
+			{{ end }}
           </div>
         </div>
       </div>

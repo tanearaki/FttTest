@@ -41,6 +41,18 @@
 
 /*                記事系
 ======================================================= */
+.entry_date {
+  margin-top: -0.75em;
+  margin-bottom: 2.0em;
+  text-align: right;
+}
+.entry_date time {
+  font-size: 100%;
+}
+
+.entry_content + .entry_content {
+  margin-top: 1em;
+}
 .entry_content p {
   font-size: 114.3%;
 }
@@ -50,6 +62,18 @@
 .entry_content img {
   max-width: 100%;
   margin: auto;
+}
+.entry_content.files_list ul li a {
+  position: relative;
+}
+.entry_content.files_list ul li a:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f15b";
+  margin-right: 0.25em;
+  font-weight: 400;
+}
+.entry_content.files_list ul li + li {
+  margin-top: 0.5em;
 }
 
 /*                お問い合わせ
