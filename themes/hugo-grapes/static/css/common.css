@@ -828,10 +828,10 @@ body.lower #header {
   height: 23px;
   transform: rotate(-45deg);
 }
-.news_list ul li > a .cat > div.new, .news_list ul li > div .cat > div.new {
+.news_list ul li > a .cat > div.new, .news_list ul li > a .cat > div.news, .news_list ul li > div .cat > div.new, .news_list ul li > div .cat > div.news {
   background-color: #ff9a32;
 }
-.news_list ul li > a .cat > div.new:before, .news_list ul li > div .cat > div.new:before {
+.news_list ul li > a .cat > div.new:before, .news_list ul li > a .cat > div.news:before, .news_list ul li > div .cat > div.new:before, .news_list ul li > div .cat > div.news:before {
   background-color: #ff9a32;
 }
 .news_list ul li > a .cat > div.press, .news_list ul li > div .cat > div.press {
