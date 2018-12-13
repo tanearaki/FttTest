@@ -65,15 +65,21 @@
 }
 .entry_content.files_list ul li a {
   position: relative;
+  display: inline-block;
+  padding-left: 30px;
 }
 .entry_content.files_list ul li a:before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f15b";
-  margin-right: 0.25em;
-  font-weight: 400;
+  width: 20px;
+  height: 22px;
+  content: "";
+  background-image: url(/media/images/common/icon_pdf32.png);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -4px;
 }
 .entry_content.files_list ul li + li {
-  margin-top: 0.5em;
+  margin-top: 0.75em;
 }
 
 /*                お問い合わせ
