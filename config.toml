@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "ja"
-title = "TEST-site"
+title = "Fintertech Securities Co.,Ltd."
 theme = "hugo-grapes"
 [permalinks]
   post = "/archives/:year:month:day/"
